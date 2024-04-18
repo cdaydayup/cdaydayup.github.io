@@ -72,8 +72,22 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>b</li>
 <li>c</li>
 </ul>
-<p>| 第一项 | 第二项 |<br>
-| 张    三 | 李   四 |</p></div>
+<table role="table">
+<thead>
+<tr>
+<th align="center">第一项</th>
+<th align="center">第二项</th>
+<th align="center">第三项</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">张 三</td>
+<td align="center">李 四</td>
+<td align="center">王五</td>
+</tr>
+</tbody>
+</table></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
